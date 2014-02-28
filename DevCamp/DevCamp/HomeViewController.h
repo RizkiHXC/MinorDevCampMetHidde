@@ -12,5 +12,7 @@
 @interface HomeViewController : UIViewController <MKMapViewDelegate, UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, retain) UIView *homeView;
+@property (nonatomic, retain) UITableView *menuView;
+@property (nonatomic, readonly) NSArray *menuItems;
 
 @end

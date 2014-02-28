@@ -16,11 +16,16 @@
 
 @implementation HomeViewController
 
+@synthesize menuView = menuView,
+            menuItems = menuItems;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        menuItems = [NSArray arrayWithObjects:@"GPS", @"Accelerometer", nil];
         
         menuOpen = false;
         
@@ -31,7 +36,7 @@
         
         self.navigationItem.leftBarButtonItem = openMenu;
         
-        UITableView *menuView = [[UITableView alloc] initWithFrame:self.view.frame];
+        menuView = [[UITableView alloc] initWithFrame:self.view.frame];
         [menuView setDelegate:self];
         [menuView setDataSource:self];
         
@@ -43,6 +48,8 @@
         [mapView setDelegate:self];
         [mapView setCenterCoordinate:mapView.userLocation.location.coordinate animated:YES];
         [mapView setUserTrackingMode:MKUserTrackingModeFollow animated:YES];
+        
+        [menuView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
         
         [self.view addSubview:menuView];
         [self.view addSubview:self.homeView];
@@ -63,6 +70,37 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 2;
+    
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    UILabel *cellLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, cell.frame.size.height / 2 - 10, 200, 20)];
+    [cellLabel setText:[menuItems objectAtIndex:indexPath.row]];
+    [cellLabel setBackgroundColor:[UIColor redColor]];
+    
+    [cell addSubview:cellLabel];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+
+
+
+// Functions
 - (void) openMenu {
     NSLog(@"Open Menu");
     

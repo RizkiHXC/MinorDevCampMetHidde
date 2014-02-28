@@ -22,6 +22,7 @@
 		A1388ABE18BCC89F00C07F5E /* DevCampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1388ABD18BCC89F00C07F5E /* DevCampTests.m */; };
 		A1388AC918BCC92500C07F5E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1388AC818BCC92500C07F5E /* HomeViewController.m */; };
 		A1388ACE18BCCC7500C07F5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1388ACD18BCCC7500C07F5E /* MapKit.framework */; };
+		A1BE28B418BF9A0B0089A5AC /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BE28B318BF9A0B0089A5AC /* AccelerometerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		A1388AC718BCC92500C07F5E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A1388AC818BCC92500C07F5E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A1388ACD18BCCC7500C07F5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A1BE28B218BF9A0B0089A5AC /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccelerometerViewController.h; path = ../AccelerometerViewController.h; sourceTree = "<group>"; };
+		A1BE28B318BF9A0B0089A5AC /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccelerometerViewController.m; path = ../AccelerometerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 		A1388A9818BCC89E00C07F5E /* DevCamp */ = {
 			isa = PBXGroup;
 			children = (
+				A1BE28B218BF9A0B0089A5AC /* AccelerometerViewController.h */,
+				A1BE28B318BF9A0B0089A5AC /* AccelerometerViewController.m */,
 				A1388AA118BCC89E00C07F5E /* AppDelegate.h */,
 				A1388AA218BCC89E00C07F5E /* AppDelegate.m */,
 				A1388AA418BCC89E00C07F5E /* Main.storyboard */,
@@ -255,6 +260,7 @@
 			files = (
 				A1388AA318BCC89E00C07F5E /* AppDelegate.m in Sources */,
 				A1388A9F18BCC89E00C07F5E /* main.m in Sources */,
+				A1BE28B418BF9A0B0089A5AC /* AccelerometerViewController.m in Sources */,
 				A1388AC918BCC92500C07F5E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +470,7 @@
 				A1388AC318BCC89F00C07F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1388AC418BCC89F00C07F5E /* Build configuration list for PBXNativeTarget "DevCampTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				A1388AC618BCC89F00C07F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
