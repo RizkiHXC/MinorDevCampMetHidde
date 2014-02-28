@@ -25,7 +25,7 @@
     if (self) {
         // Custom initialization
         
-        menuItems = [NSArray arrayWithObjects:@"GPS", @"Accelerometer", nil];
+        menuItems = [NSArray arrayWithObjects:@"GPS", @"Gyroscope", nil];
         
         menuOpen = false;
         
@@ -71,13 +71,13 @@
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return [menuItems count];
     
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;
+    return 1;
 }
 
 
@@ -89,13 +89,20 @@
     
     UILabel *cellLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, cell.frame.size.height / 2 - 10, 200, 20)];
     [cellLabel setText:[menuItems objectAtIndex:indexPath.row]];
-    [cellLabel setBackgroundColor:[UIColor redColor]];
+    [cellLabel setBackgroundColor:[UIColor clearColor]];
     
     [cell addSubview:cellLabel];
     
     // Configure the cell...
     
     return cell;
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 1) {
+        GyroscopeViewController *viewcontroller = [[GyroscopeViewController alloc] init];
+        [self.navigationController pushViewController:viewcontroller animated:YES];
+    }
 }
 
 

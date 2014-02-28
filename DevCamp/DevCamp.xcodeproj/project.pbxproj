@@ -23,6 +23,8 @@
 		A1388AC918BCC92500C07F5E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1388AC818BCC92500C07F5E /* HomeViewController.m */; };
 		A1388ACE18BCCC7500C07F5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1388ACD18BCCC7500C07F5E /* MapKit.framework */; };
 		A1BE28B418BF9A0B0089A5AC /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BE28B318BF9A0B0089A5AC /* AccelerometerViewController.m */; };
+		A1C15F3818C0DE0C008D60EB /* GyroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C15F3718C0DE0C008D60EB /* GyroscopeViewController.m */; };
+		A1C15F3A18C0E0FA008D60EB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C15F3918C0E0FA008D60EB /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		A1388ACD18BCCC7500C07F5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A1BE28B218BF9A0B0089A5AC /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccelerometerViewController.h; path = ../AccelerometerViewController.h; sourceTree = "<group>"; };
 		A1BE28B318BF9A0B0089A5AC /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccelerometerViewController.m; path = ../AccelerometerViewController.m; sourceTree = "<group>"; };
+		A1C15F3618C0DE0C008D60EB /* GyroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroscopeViewController.h; sourceTree = "<group>"; };
+		A1C15F3718C0DE0C008D60EB /* GyroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroscopeViewController.m; sourceTree = "<group>"; };
+		A1C15F3918C0E0FA008D60EB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C15F3A18C0E0FA008D60EB /* CoreMotion.framework in Frameworks */,
 				A1388ACE18BCCC7500C07F5E /* MapKit.framework in Frameworks */,
 				A1388A9518BCC89E00C07F5E /* CoreGraphics.framework in Frameworks */,
 				A1388A9718BCC89E00C07F5E /* UIKit.framework in Frameworks */,
@@ -107,6 +113,7 @@
 		A1388A9118BCC89E00C07F5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1C15F3918C0E0FA008D60EB /* CoreMotion.framework */,
 				A1388ACD18BCCC7500C07F5E /* MapKit.framework */,
 				A1388A9218BCC89E00C07F5E /* Foundation.framework */,
 				A1388A9418BCC89E00C07F5E /* CoreGraphics.framework */,
@@ -126,6 +133,8 @@
 				A1388AA418BCC89E00C07F5E /* Main.storyboard */,
 				A1388AC718BCC92500C07F5E /* HomeViewController.h */,
 				A1388AC818BCC92500C07F5E /* HomeViewController.m */,
+				A1C15F3618C0DE0C008D60EB /* GyroscopeViewController.h */,
+				A1C15F3718C0DE0C008D60EB /* GyroscopeViewController.m */,
 				A1388AAA18BCC89E00C07F5E /* Images.xcassets */,
 				A1388A9918BCC89E00C07F5E /* Supporting Files */,
 			);
@@ -260,6 +269,7 @@
 			files = (
 				A1388AA318BCC89E00C07F5E /* AppDelegate.m in Sources */,
 				A1388A9F18BCC89E00C07F5E /* main.m in Sources */,
+				A1C15F3818C0DE0C008D60EB /* GyroscopeViewController.m in Sources */,
 				A1BE28B418BF9A0B0089A5AC /* AccelerometerViewController.m in Sources */,
 				A1388AC918BCC92500C07F5E /* HomeViewController.m in Sources */,
 			);
