@@ -25,7 +25,7 @@
     if (self) {
         // Custom initialization
         
-        menuItems = [NSArray arrayWithObjects:@"GPS", @"Gyroscope", nil];
+        menuItems = [NSArray arrayWithObjects:@"GPS", @"Gyroscope", @"Whac-A-Mole", nil];
         
         menuOpen = false;
         
@@ -102,6 +102,9 @@
     if (indexPath.row == 1) {
         GyroscopeViewController *viewcontroller = [[GyroscopeViewController alloc] init];
         [self.navigationController pushViewController:viewcontroller animated:YES];
+    } else if (indexPath.row == 2) {
+        WhackAMoleViewViewController *whackmole = [[WhackAMoleViewViewController alloc] init];
+        [self.navigationController pushViewController:whackmole animated:YES];
     }
 }
 

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import "GyroscopeViewController.h"
+#import "WhackAMoleViewViewController.h"
 
 @interface HomeViewController : UIViewController <MKMapViewDelegate, UITableViewDataSource, UITableViewDelegate>
 

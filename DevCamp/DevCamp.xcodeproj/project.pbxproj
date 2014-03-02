@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884DC0FA18C3C7980028EB85 /* WhackAMoleViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884DC0F918C3C7980028EB85 /* WhackAMoleViewViewController.m */; };
+		884DC10E18C3C86E0028EB85 /* bg_dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC0FD18C3C86E0028EB85 /* bg_dirt.png */; };
+		884DC10F18C3C86E0028EB85 /* grass_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC0FF18C3C86E0028EB85 /* grass_lower.png */; };
+		884DC11018C3C86E0028EB85 /* grass_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10018C3C86E0028EB85 /* grass_upper.png */; };
+		884DC11118C3C86E0028EB85 /* moker.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10218C3C86E0028EB85 /* moker.png */; };
+		884DC11218C3C86E0028EB85 /* moker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10318C3C86E0028EB85 /* moker2.png */; };
+		884DC11318C3C86E0028EB85 /* moker2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10418C3C86E0028EB85 /* moker2@2x.png */; };
+		884DC11418C3C86E0028EB85 /* moker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10518C3C86E0028EB85 /* moker@2x.png */; };
+		884DC11518C3C86E0028EB85 /* mole_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10618C3C86E0028EB85 /* mole_1.png */; };
+		884DC11618C3C86E0028EB85 /* mole_laugh1.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10718C3C86E0028EB85 /* mole_laugh1.png */; };
+		884DC11718C3C86E0028EB85 /* mole_laugh2.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10818C3C86E0028EB85 /* mole_laugh2.png */; };
+		884DC11818C3C86E0028EB85 /* mole_laugh3.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10918C3C86E0028EB85 /* mole_laugh3.png */; };
+		884DC11918C3C86E0028EB85 /* mole_thump1.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10A18C3C86E0028EB85 /* mole_thump1.png */; };
+		884DC11A18C3C86E0028EB85 /* mole_thump2.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10B18C3C86E0028EB85 /* mole_thump2.png */; };
+		884DC11B18C3C86E0028EB85 /* mole_thump3.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10C18C3C86E0028EB85 /* mole_thump3.png */; };
+		884DC11C18C3C86E0028EB85 /* mole_thump4.png in Resources */ = {isa = PBXBuildFile; fileRef = 884DC10D18C3C86E0028EB85 /* mole_thump4.png */; };
+		884DC12018C3C8C30028EB85 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884DC11D18C3C8C30028EB85 /* AudioToolbox.framework */; };
+		884DC12218C3C8C30028EB85 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884DC11F18C3C8C30028EB85 /* AVFoundation.framework */; };
 		A1388A9318BCC89E00C07F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1388A9218BCC89E00C07F5E /* Foundation.framework */; };
 		A1388A9518BCC89E00C07F5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1388A9418BCC89E00C07F5E /* CoreGraphics.framework */; };
 		A1388A9718BCC89E00C07F5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1388A9618BCC89E00C07F5E /* UIKit.framework */; };
@@ -38,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		884DC0F818C3C7980028EB85 /* WhackAMoleViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhackAMoleViewViewController.h; sourceTree = "<group>"; };
+		884DC0F918C3C7980028EB85 /* WhackAMoleViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhackAMoleViewViewController.m; sourceTree = "<group>"; };
+		884DC0FD18C3C86E0028EB85 /* bg_dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_dirt.png; sourceTree = "<group>"; };
+		884DC0FF18C3C86E0028EB85 /* grass_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass_lower.png; sourceTree = "<group>"; };
+		884DC10018C3C86E0028EB85 /* grass_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass_upper.png; sourceTree = "<group>"; };
+		884DC10218C3C86E0028EB85 /* moker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moker.png; sourceTree = "<group>"; };
+		884DC10318C3C86E0028EB85 /* moker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moker2.png; sourceTree = "<group>"; };
+		884DC10418C3C86E0028EB85 /* moker2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moker2@2x.png"; sourceTree = "<group>"; };
+		884DC10518C3C86E0028EB85 /* moker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moker@2x.png"; sourceTree = "<group>"; };
+		884DC10618C3C86E0028EB85 /* mole_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_1.png; sourceTree = "<group>"; };
+		884DC10718C3C86E0028EB85 /* mole_laugh1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_laugh1.png; sourceTree = "<group>"; };
+		884DC10818C3C86E0028EB85 /* mole_laugh2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_laugh2.png; sourceTree = "<group>"; };
+		884DC10918C3C86E0028EB85 /* mole_laugh3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_laugh3.png; sourceTree = "<group>"; };
+		884DC10A18C3C86E0028EB85 /* mole_thump1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_thump1.png; sourceTree = "<group>"; };
+		884DC10B18C3C86E0028EB85 /* mole_thump2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_thump2.png; sourceTree = "<group>"; };
+		884DC10C18C3C86E0028EB85 /* mole_thump3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_thump3.png; sourceTree = "<group>"; };
+		884DC10D18C3C86E0028EB85 /* mole_thump4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole_thump4.png; sourceTree = "<group>"; };
+		884DC11D18C3C8C30028EB85 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		884DC11E18C3C8C30028EB85 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		884DC11F18C3C8C30028EB85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A1388A8F18BCC89E00C07F5E /* DevCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1388A9218BCC89E00C07F5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1388A9418BCC89E00C07F5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884DC12018C3C8C30028EB85 /* AudioToolbox.framework in Frameworks */,
+				884DC12218C3C8C30028EB85 /* AVFoundation.framework in Frameworks */,
 				A1C15F3A18C0E0FA008D60EB /* CoreMotion.framework in Frameworks */,
 				A1388ACE18BCCC7500C07F5E /* MapKit.framework in Frameworks */,
 				A1388A9518BCC89E00C07F5E /* CoreGraphics.framework in Frameworks */,
@@ -91,6 +131,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		884DC0FB18C3C84E0028EB85 /* Whack A Mole Art */ = {
+			isa = PBXGroup;
+			children = (
+				884DC0FC18C3C86E0028EB85 /* background */,
+				884DC0FE18C3C86E0028EB85 /* foreground */,
+				884DC10118C3C86E0028EB85 /* sprites */,
+			);
+			name = "Whack A Mole Art";
+			sourceTree = "<group>";
+		};
+		884DC0FC18C3C86E0028EB85 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				884DC0FD18C3C86E0028EB85 /* bg_dirt.png */,
+			);
+			name = background;
+			path = "../../../../../../../../../Documents/HvA Xcode Projecten/Whac-A-Mole/Whac-A-Mole/background";
+			sourceTree = "<group>";
+		};
+		884DC0FE18C3C86E0028EB85 /* foreground */ = {
+			isa = PBXGroup;
+			children = (
+				884DC0FF18C3C86E0028EB85 /* grass_lower.png */,
+				884DC10018C3C86E0028EB85 /* grass_upper.png */,
+			);
+			name = foreground;
+			path = "../../../../../../../../../Documents/HvA Xcode Projecten/Whac-A-Mole/Whac-A-Mole/foreground";
+			sourceTree = "<group>";
+		};
+		884DC10118C3C86E0028EB85 /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				884DC10218C3C86E0028EB85 /* moker.png */,
+				884DC10318C3C86E0028EB85 /* moker2.png */,
+				884DC10418C3C86E0028EB85 /* moker2@2x.png */,
+				884DC10518C3C86E0028EB85 /* moker@2x.png */,
+				884DC10618C3C86E0028EB85 /* mole_1.png */,
+				884DC10718C3C86E0028EB85 /* mole_laugh1.png */,
+				884DC10818C3C86E0028EB85 /* mole_laugh2.png */,
+				884DC10918C3C86E0028EB85 /* mole_laugh3.png */,
+				884DC10A18C3C86E0028EB85 /* mole_thump1.png */,
+				884DC10B18C3C86E0028EB85 /* mole_thump2.png */,
+				884DC10C18C3C86E0028EB85 /* mole_thump3.png */,
+				884DC10D18C3C86E0028EB85 /* mole_thump4.png */,
+			);
+			name = sprites;
+			path = "../../../../../../../../../Documents/HvA Xcode Projecten/Whac-A-Mole/Whac-A-Mole/sprites";
+			sourceTree = "<group>";
+		};
 		A1388A8618BCC89E00C07F5E = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +202,9 @@
 		A1388A9118BCC89E00C07F5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				884DC11D18C3C8C30028EB85 /* AudioToolbox.framework */,
+				884DC11E18C3C8C30028EB85 /* AudioUnit.framework */,
+				884DC11F18C3C8C30028EB85 /* AVFoundation.framework */,
 				A1C15F3918C0E0FA008D60EB /* CoreMotion.framework */,
 				A1388ACD18BCCC7500C07F5E /* MapKit.framework */,
 				A1388A9218BCC89E00C07F5E /* Foundation.framework */,
@@ -126,6 +218,7 @@
 		A1388A9818BCC89E00C07F5E /* DevCamp */ = {
 			isa = PBXGroup;
 			children = (
+				884DC0FB18C3C84E0028EB85 /* Whack A Mole Art */,
 				A1BE28B218BF9A0B0089A5AC /* AccelerometerViewController.h */,
 				A1BE28B318BF9A0B0089A5AC /* AccelerometerViewController.m */,
 				A1388AA118BCC89E00C07F5E /* AppDelegate.h */,
@@ -137,6 +230,8 @@
 				A1C15F3718C0DE0C008D60EB /* GyroscopeViewController.m */,
 				A1388AAA18BCC89E00C07F5E /* Images.xcassets */,
 				A1388A9918BCC89E00C07F5E /* Supporting Files */,
+				884DC0F818C3C7980028EB85 /* WhackAMoleViewViewController.h */,
+				884DC0F918C3C7980028EB85 /* WhackAMoleViewViewController.m */,
 			);
 			path = DevCamp;
 			sourceTree = "<group>";
@@ -246,8 +341,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884DC11118C3C86E0028EB85 /* moker.png in Resources */,
+				884DC11718C3C86E0028EB85 /* mole_laugh2.png in Resources */,
 				A1388AAB18BCC89E00C07F5E /* Images.xcassets in Resources */,
+				884DC10E18C3C86E0028EB85 /* bg_dirt.png in Resources */,
 				A1388A9D18BCC89E00C07F5E /* InfoPlist.strings in Resources */,
+				884DC11018C3C86E0028EB85 /* grass_upper.png in Resources */,
+				884DC11518C3C86E0028EB85 /* mole_1.png in Resources */,
+				884DC11218C3C86E0028EB85 /* moker2.png in Resources */,
+				884DC11C18C3C86E0028EB85 /* mole_thump4.png in Resources */,
+				884DC11918C3C86E0028EB85 /* mole_thump1.png in Resources */,
+				884DC11818C3C86E0028EB85 /* mole_laugh3.png in Resources */,
+				884DC11318C3C86E0028EB85 /* moker2@2x.png in Resources */,
+				884DC11618C3C86E0028EB85 /* mole_laugh1.png in Resources */,
+				884DC11418C3C86E0028EB85 /* moker@2x.png in Resources */,
+				884DC11B18C3C86E0028EB85 /* mole_thump3.png in Resources */,
+				884DC10F18C3C86E0028EB85 /* grass_lower.png in Resources */,
+				884DC11A18C3C86E0028EB85 /* mole_thump2.png in Resources */,
 				A1388AA618BCC89E00C07F5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +380,7 @@
 				A1388AA318BCC89E00C07F5E /* AppDelegate.m in Sources */,
 				A1388A9F18BCC89E00C07F5E /* main.m in Sources */,
 				A1C15F3818C0DE0C008D60EB /* GyroscopeViewController.m in Sources */,
+				884DC0FA18C3C7980028EB85 /* WhackAMoleViewViewController.m in Sources */,
 				A1BE28B418BF9A0B0089A5AC /* AccelerometerViewController.m in Sources */,
 				A1388AC918BCC92500C07F5E /* HomeViewController.m in Sources */,
 			);
